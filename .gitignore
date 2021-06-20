@@ -3,5 +3,5 @@ dist/files/*
 *.txt
 *.log
 .env
-.env.*
+.env.development
 hermione

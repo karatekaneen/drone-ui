@@ -17,7 +17,7 @@ import BuildsFeed from "../views/BuildsFeed.vue";
 
 export default new Router({
   mode: "history",
-  base: "/",
+  base: process.env.VUE_APP_BASE_URL || "/",
   routes: [
     {
       path: "/login/form",
